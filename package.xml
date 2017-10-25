@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <name>p3dx_gazebo</name>
+  <version>0.1.0</version>
+  <description>
+    The p3dx_gazebo package. This is a first working version.
+  </description>
+
+  <maintainer email="sydney.rdc@gmail.com">Sidney Caravalho</maintainer>
+  <license>GPLv3</license>
+  <url>https://github.com/sidneyrdc/p3dx_gazebo.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <run_depend>gazebo_ros</run_depend>
+</package>
+
