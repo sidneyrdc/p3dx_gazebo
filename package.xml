@@ -3,11 +3,11 @@
   <name>p3dx_gazebo</name>
   <version>0.1.0</version>
   <description>
-    The p3dx_gazebo package. This is a first working version.
+    Pioneer 3DX model compatible with Gazebo and ROS environment.
   </description>
 
   <maintainer email="sydney.rdc@gmail.com">Sidney Caravalho</maintainer>
-  <license>GPLv3</license>
+  <license>MIT</license>
   <url>https://github.com/sidneyrdc/p3dx_gazebo.git</url>
 
   <buildtool_depend>catkin</buildtool_depend>

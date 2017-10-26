@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot
   xmlns:xacro="http://ros.org/wiki/xacro">
-  <property name="M_PI" value="3.1415926535897931" />
+  <xacro:property name="M_PI" value="3.1415926535897931" />
 
   <xacro:macro name="pioneer_wheel" params="side parent xyz rpy radius meshes">
 
@@ -30,7 +30,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.01 0.01 0.01"/>
+        <box size="0.0001 0.0001 0.0001"/>
       </geometry>
     </collision>
   </link>
