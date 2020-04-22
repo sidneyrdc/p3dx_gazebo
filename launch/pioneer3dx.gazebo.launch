@@ -1,7 +1,7 @@
 <launch>
 
   <arg name="robot_name" default="p3dx" />
-  <arg name="robot_position" default="-x 0.0 -y 0.0 -z 0.01" />
+  <arg name="robot_position" default="-x 0.0 -y 0.0 -z 0.5" />
 
   <group ns="$(arg robot_name)">
 
